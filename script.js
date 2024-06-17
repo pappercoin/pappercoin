@@ -1,11 +1,11 @@
 const { Telegraf } = require('telegraf');
-const bot = new Telegraf('YOUR_TELEGRAM_BOT_TOKEN');
+const bot = new Telegraf('7178767666:AAE3omN8-u_7FJoL9WlEq0QD30h3NWEv9Ds');
 
 bot.start((ctx) => {
     ctx.reply('Welcome to PepperCoin! Click the button below to open the app.', {
         reply_markup: {
             inline_keyboard: [
-                [{ text: 'Open PepperCoin App', web_app: { url: 'https://<твоё-имя-пользователя>.github.io/<имя-репозитория>' } }]
+                [{ text: 'Open PepperCoin App', web_app: { url: 'https://pappercoin.github.io/pappercoin/' } }]
             ]
         }
     });
